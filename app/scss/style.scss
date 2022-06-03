@@ -126,4 +126,41 @@
 //end how
 
 
+//start gifts
+.gifts{
+  padding: 96px 0 107px;
+  &__subtitle{
+    margin-bottom: 64px;
+  }
+  &__item{
+    background-color: $gray;
+    transition: all .5s;
+    margin-bottom: 30px;
+    &:hover{
+      filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+      background-color: #fff;
+    }
+    &-img{
+      width: 100%;
+      height: 270px;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    &-content{
+      padding: 24px;
+    }
+    &-title{
+      line-height: 23px;
+      margin-bottom: 74px;
+    }
+    &-link{
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+}
+//end gifts
+
+
 @import 'media';
