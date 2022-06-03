@@ -47,4 +47,45 @@
 }
 //end header
 
+
+//start offer
+.offer{
+  position: relative;
+  &__inner{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  &__row{
+    padding: 154px 0 135px;
+    min-height: 100vh;
+  }
+  &__title{
+    font-size: 56px;
+    line-height: 66px;
+    max-width: 433px;
+    margin-bottom: 45px;
+  }
+  &__text{
+    max-width: 422px;
+    margin-bottom: 52px;
+  }
+  &__btn{
+    @include btn($background: $accent);
+    font-size: 18px;
+    font-weight: 300;
+  }
+  &__img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+//end offer
+
 @import 'media';

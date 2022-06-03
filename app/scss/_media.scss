@@ -49,6 +49,38 @@
       }
     }
   }
+  .offer{
+    // text-align: center;
+    padding: 100px 0;
+  }
+  .offer__inner{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .offer__title{
+    font-size: 35px;
+    line-height: 45px;
+    max-width: 100%;
+  }
+  .offer__text{
+    max-width: 100%;
+  }
+  .offer__img{
+    position: static;
+    width: 60%;
+    margin: 30px 0 0;
+    padding: 0 15px;
+  }
+  .offer__row{
+    min-height: auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 500px){
+  .offer__img{
+    width: 100%;
+  }
 }
 
 @media (max-width: 400px){
