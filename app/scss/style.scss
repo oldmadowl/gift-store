@@ -258,4 +258,39 @@
 }
 //end blog
 
+
+//start footer
+.footer{
+  background-color: $gray;
+  padding: 115px 0 140px;
+  &__inner{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto 62px;
+    padding-bottom: 53px;
+    &::after{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background-color: #000;
+    }
+  }
+  .menu__item + .menu__item{
+    margin-left: 80px;
+  }
+  .menu__link{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  &__copy{
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+//end footer
+
+
 @import 'media';
