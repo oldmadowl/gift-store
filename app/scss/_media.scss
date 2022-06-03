@@ -3,6 +3,9 @@
     margin-right: 0;
     margin-left: 15px;
   }
+  .ready__inner{
+    padding: 0;
+  }
 }
 
 @media (max-width: 900px){
@@ -11,6 +14,10 @@
   }
   .header__logo{
     margin-left: 0;
+  }
+  .ready__title,
+  .ready__text{
+    font-size: 30px;
   }
 }
 
@@ -94,6 +101,9 @@
     margin-left: 0;
     max-width: 100%;
   }
+  .ready__text{
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 500px){
@@ -101,11 +111,22 @@
   .how__img{
     width: 100%;
   }
+  .ready__btn{
+    width: 100%;
+    &--black{
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
 }
 
 @media (max-width: 400px){
   .col-btn{
     display: none;
+  }
+  .ready__title, 
+  .ready__text{
+    font-size: 28px;
   }
 }
 
