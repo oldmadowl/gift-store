@@ -3,5 +3,48 @@
 @import 'global';
 
 
+//start header
+.header{
+  position: relative;
+  &__logo{
+    margin-left: 65px;
+  }
+  &__inner{
+    height: 116px;
+  }
+  &__link{
+    @include btn($color: $accent, $lineHeight: 43px);
+    font-size: 18px;
+    width: 150px;
+    margin-right: 20px;
+  }
+}
+.menu{
+  &__btn{
+    position: relative;
+    z-index: 6;
+    transition: all .3s;
+    width: 35px;
+    cursor: pointer;
+    margin-right: 50px;
+    display: none;
+    &-line{
+      transition: all .3s;
+      height: 4px;
+      background-color: #000;
+      & + &{
+        margin-top: 4px;
+      }
+    }
+  }
+  &__item + &__item{
+    margin-left: 31px;
+  }
+  &__link{
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+//end header
 
 @import 'media';

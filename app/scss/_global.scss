@@ -39,7 +39,33 @@ body, html{
 body{
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
 }
 main{
   flex-grow: 1;
+}
+.container{
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-fluid{
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.title{
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.subtitle{
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
 }

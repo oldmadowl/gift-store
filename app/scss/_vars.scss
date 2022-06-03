@@ -1,0 +1,14 @@
+$accent: #F7941E;
+
+@mixin btn($lineHeight: 60px, $borderColor: $accent, $color: #fff, $background: transparent) {
+  width: 200px;
+  height: $lineHeight;
+  line-height: $lineHeight;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: $background;
+  color: $color;
+  border: 1px solid $borderColor;
+  border-radius: 5px;
+  padding: 0 10px;
+}
