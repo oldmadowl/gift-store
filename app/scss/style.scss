@@ -88,4 +88,42 @@
 }
 //end offer
 
+
+//start how
+.how{
+  position: relative;
+  padding: 164px 0 104px;
+  &__img{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  &__inner{
+    max-width: 441px;
+    margin-left: auto;
+    margin-right: 30px;
+    text-align: left;
+  }
+  &__title{
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 23px;
+  }
+  &__text{
+    text-align: justify;
+    margin-bottom: 35px;
+  }
+  &__btn{
+    @include btn($color: $accent);
+    font-size: 18px;
+  }
+}
+//end how
+
+
 @import 'media';
