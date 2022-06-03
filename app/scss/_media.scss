@@ -19,6 +19,16 @@
   .ready__text{
     font-size: 30px;
   }
+  .blog__article-content{ 
+    padding: 63px 15px 49px 5px;
+  }
+  .blog__item-title{
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .blog__item-text{
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 768px){
@@ -104,6 +114,16 @@
   .ready__text{
     margin-bottom: 20px;
   }
+  .blog__article-img{
+    max-width: 100%;
+    height: 400px;
+  }
+  .blog__article-content{
+    padding: 30px 15px 40px;
+  }
+  .blog__item{
+    height: auto;
+  }
 }
 
 @media (max-width: 500px){
@@ -117,6 +137,14 @@
       margin-right: 0;
       margin-bottom: 10px;
     }
+  }
+  .blog__article-title{
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 25px;
+  }
+  .blog__item{
+    padding: 15px;
   }
 }
 
